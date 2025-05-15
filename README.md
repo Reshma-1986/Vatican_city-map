@@ -2,7 +2,6 @@
 
 This is an interactive web map of **Vatican City**, generated using **QGIS2Web** (Leaflet). It visualizes spatial data and provides popup information for key locations.
 
-[Click here to view the map](https://github.com/Reshma-1986/Vatican_city-map.git)  
 
 ##  Tools Used
 
