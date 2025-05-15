@@ -11,9 +11,12 @@ This is an interactive web map of **Vatican City**, generated using **QGIS2Web**
 - **QGIS2Web plugin** – Exports QGIS projects as interactive Leaflet or OpenLayers maps
   - 🔗 GitHub: [qgis2web plugin repository](https://github.com/tomchadwin/qgis2web)
 - **Leaflet.js** – A leading open-source JavaScript library for interactive maps
-- **GitHub Pages** – Free static web hosting to publish your map
+- **Qucik OSM plugin** - Download vectro files directly to QGIS interface.
+  - 🔗 GitHub: [QuickOSM plugin repository](https://github.com/3liz/QuickOSM)
+- **Open Topography DEM Dowloader plugin** - To dowload DEM data directly to QGIS interface.
+  - 🔗 GitHub: [Open Topography DEM Dowloader plugin repository](https://github.com/khalidalt/OpenTopography-QGIS-Plugin)
 
-[qgis2web](https://github.com/tomchadwin/qgis2web) is a QGIS plugin that lets you turn your QGIS projects into web maps using either **Leaflet** or **OpenLayers** with no coding required.
+QGIS2Web is a QGIS plugin that lets you turn your QGIS projects into web maps using either **Leaflet** or **OpenLayers** with no coding required.
 
 
 ## Features
@@ -33,6 +36,9 @@ This is an interactive web map of **Vatican City**, generated using **QGIS2Web**
 
 - All layers and styles were configured using the QGIS2Web plugin.
 - Ensure file paths remain relative when hosting.
+- The legend for elevetion is added by manually coding into QGIS generated HTML file.
+- The boundary, buildings are dowloaded via Qucik OSM plugin.
+- The elevation data is from Open Topography DEM Dowloader plugin.
 
 ##  Author
 
